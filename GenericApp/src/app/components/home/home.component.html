@@ -1,1 +1,7 @@
-<p>home works!</p>
+<h1>Welcome to the Home Page</h1>
+<h2>Items List</h2>
+<ul>
+  <li *ngFor="let item of items">
+    {{item.name}} - {{item.description}}
+  </li>
+</ul>
